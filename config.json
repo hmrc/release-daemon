@@ -1,0 +1,11 @@
+{
+    "ciBuildApiUrl": "",
+    "ciBuildUsername": "",
+    "ciBuildApiToken": "",
+    "ciDevApiUrl": "",
+    "githubApiUrl": "",
+    "githubUsername": "",
+    "githubAccessToken": "",
+    "projects": [],
+    "updateTime": 300000
+}

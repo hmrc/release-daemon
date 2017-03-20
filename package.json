@@ -1,0 +1,18 @@
+{
+  "name": "release-daemon",
+  "version": "1.0.0",
+  "description": "Tool used for monitoring if there are any pending releases to be done",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/single",
+    "continuous": "node bin/continuous",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomasz Mikus <mikus.tomasz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "q": "^1.4.1",
+    "request": "^2.75.0"
+  }
+}
