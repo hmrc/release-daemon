@@ -29,6 +29,17 @@ This is the text description of algorithm used by the tool.
     * Schedule remaining commit numbers
 - Update the cache with versions known to be successfully build (which have release tags).
 
+## Getting Started
+
+- Edit `config.json`, add API URLs for appropriate services, usernames and credentials/keys
+- Run `npm install` from the base of the project
+- Run ./start.sh to attempt one run with this config (note: will tag projects if they need tagging)
+- For day-to-day constant operation use ./continuous.sh
+
+### Configuration Notes
+- Sample jenkins url: https://my-jenkins-instance.com/ (No /api necessary, trailing slash required)
+- Github url: https://my-github-instance.com/api/v3/ (trailing slash needed)
+
 ### License
 
 This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
