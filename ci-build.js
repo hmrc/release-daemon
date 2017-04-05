@@ -9,7 +9,7 @@ const ciBuildJenkinsClient = new Jenkins(config.ciBuildApiUrl, config.ciBuildUse
 
 ciBuildJenkinsClient.getCurrentBuildStatus = function ()
 {
-    console.log(`Getting current build status on "${this.m_url}".`);
+    console.log('Getting current build status on "${this.m_url}".');
 
     const deferred = q.defer();
 
