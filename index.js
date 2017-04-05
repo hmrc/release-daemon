@@ -1,3 +1,5 @@
+require('console-stamp')(console, 'HH:MM:ss.l');
+
 const chalk = require("chalk");
 const ciBuild = require("./ci-build");
 const ciDev = require("./ci-dev");
